@@ -1,13 +1,14 @@
 # learning-scala-rockTheJVM
 
-📖 I am learning Scala using materials from the [Scala & Functional Programming Essentials course.](https://www.udemy.com/course/rock-the-jvm-scala-for-beginners/)
+📖 I am learning Scala using materials from the [Scala & Functional Programming Essentials course.](https://www.udemy.com/course/rock-the-jvm-scala-for-beginners/) 
 I'll be documenting my progress in this repo with notes and practice code.
+
 
 ## ✅ Topics to cover
 
 ---
 - [x] Valuables, Variables and Types
-- [ ] Expressions
+- [x] Expressions
 - [ ] Functions
 - [ ] Recursion
 ---
@@ -32,6 +33,11 @@ I'll be documenting my progress in this repo with notes and practice code.
 - - -[ ] Vector
 - -[ ] Tuples and Maps
 - -[ ] Pattern matching
+---
+
+## 🧠 Key Takeaways 
+
+- Everything in Scala is an expression 
 
 
 
