@@ -9,7 +9,7 @@ I'll be documenting my progress in this repo with notes and practice code.
 ---
 - [x] Valuables, Variables and Types
 - [x] Expressions
-- [ ] Functions
+- [x] Functions
 - [ ] Recursion
 ---
 - [ ] Object Oriented Programming:
