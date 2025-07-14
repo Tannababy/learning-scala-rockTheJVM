@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ef5bdf5-87c3-4976-aac8-12637c0adc7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/Expressions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/Expressions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/Functions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/Functions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/Recursion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/Recursion.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/ValuesVariablesTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/ValuesVariablesTypes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/oop/OOBasics.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +37,7 @@
   "keyToString": {
     "Application.Functions.executor": "Run",
     "Application.OOBasics.executor": "Run",
+    "Application.OOPBasics.executor": "Run",
     "Application.Recursion.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
