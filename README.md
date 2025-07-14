@@ -7,15 +7,16 @@ I'll be documenting my progress in this repo with notes and practice code.
 ## ✅ Topics to cover
 
 ---
-- [x] Valuables, Variables and Types
-- [x] Expressions
-- [x] Functions
-- [ ] Recursion
+- [ ] Basics:
+- -[x] Valuables, Variables and Types
+- -[x] Expressions
+- -[x] Functions
+- -[ ] Recursion
 ---
 - [ ] Object Oriented Programming:
 - -[ ] Syntactic Sugar: method Notations
-- - [ ] Scala Objects
-- - [ ] Inheritance
+- -[ ] Scala Objects
+- -[ ] Inheritance
 - - -[ ] Abstract classes
 - - - [ ] Traits
 - -[ ] Generics
@@ -38,6 +39,8 @@ I'll be documenting my progress in this repo with notes and practice code.
 ## 🧠 Key Takeaways 
 
 - Everything in Scala is an expression 
+- recursion over loops
+- 
 
 
 

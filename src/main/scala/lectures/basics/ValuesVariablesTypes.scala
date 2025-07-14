@@ -1,4 +1,4 @@
-package lectures
+package lectures.basics
 
 // extends App to run in terminal
 object ValuesVariablesTypes extends App{
