@@ -14,7 +14,7 @@ I'll be documenting my progress in this repo with notes and practice code.
 - -[ ] Recursion
 ---
 - [ ] Object Oriented Programming:
-- -[ ] Syntactic Sugar: method Notations
+- -[x] Syntactic Sugar: method Notations
 - -[ ] Scala Objects
 - -[ ] Inheritance
 - - -[ ] Abstract classes
@@ -39,8 +39,8 @@ I'll be documenting my progress in this repo with notes and practice code.
 ## 🧠 Key Takeaways 
 
 - Everything in Scala is an expression 
-- recursion over loops
-- 
+- Recursion over loops
+- All "operators" are methods
 
 
 
