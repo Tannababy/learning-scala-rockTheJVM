@@ -1,8 +1,10 @@
 package lectures.basics
 
+import scala.annotation.tailrec
+
 object Functions  extends App {
 
-  // because expressions can also be blocks, a code block or sing expression will evaluate to it's last line
+  // because expressions can also be blocks, a code block or single expression will evaluate to it's last line
   def aFunction(a: String, b: Int): String = {
     a + " " + b
   }
@@ -42,11 +44,8 @@ object Functions  extends App {
   // 1)
   def greeting(name: String, age: Int): String = "Hi my name is " + name + ", and I am " + age + " years old."
 
-
   // to run println, call it outside function
-    println(greeting("Lotanna", 30))
-
-
+  println(greeting("Lotanna", 30))
 
   // 2)
   def factorialFunction(max: Int): Int = {
@@ -65,15 +64,18 @@ object Functions  extends App {
   println(fibonacciFunction(7))
 
 
-  // 4) stuck on this one
+  // 4) 
   def primeNumbersTest(n: Int): Boolean = {
-
-    def isPrimUntil(t: Int): Boolean = {
+    
+    def isPrimeUntil(t: Int): Boolean = {
       if (t <= 1) true
-      else n % t != 0 && isPrimUntil(t - 1)
+      else n % t != 0 && isPrimeUntil(t - 1)
     }
 
-    isPrimUntil(n / 2)
+    isPrimeUntil(n / 2) // because no number greater than n / 2 can divide n, except n itself.
+    
+
+
   }
 
   println(primeNumbersTest((37)))
