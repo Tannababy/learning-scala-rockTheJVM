@@ -46,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CBNvsCBV.executor": "Run",
     "Application.Functions.executor": "Run",
     "Application.MethodNotations.executor": "Run",
     "Application.OOBasics.executor": "Run",
