@@ -7,8 +7,6 @@
     <list default="true" id="5ef5bdf5-87c3-4976-aac8-12637c0adc7c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/oop/MethodNotations.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/oop/MethodNotations.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/oop/OOPBasics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/oop/OOPBasics.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
     "Application.MethodNotations.executor": "Run",
     "Application.OOBasics.executor": "Run",
     "Application.OOPBasics.executor": "Run",
+    "Application.Objects.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Recursion.executor": "Run",
     "Application.StringOps.executor": "Run",

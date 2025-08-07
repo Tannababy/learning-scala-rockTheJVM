@@ -47,6 +47,10 @@ I'll be documenting my progress in this repo with notes and practice code.
 - Unary operators are the same as prefix notation, it only works with (+, -, !, ~)
 - Postfix notation is only used with methods that have no parameters
 - Apply() allows for objects to be called like a method
+- Scala doesn't have the "static" keyword and instead makes use of Singleton objects 
+- Objects are their own class/type and the only instance of that type
+- Scala companions (class and object of same name in the same scope) can access each others private members
+- 
 
 
 
