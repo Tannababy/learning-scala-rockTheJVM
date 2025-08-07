@@ -7,11 +7,12 @@ I'll be documenting my progress in this repo with notes and practice code.
 ## ✅ Topics to cover
 
 ---
-- [ ] Basics:
+- [x] Basics:
 - -[x] Valuables, Variables and Types
 - -[x] Expressions
 - -[x] Functions
-- -[ ] Recursion
+- -[x] String operations
+- -[x] Recursion
 ---
 - [ ] Object Oriented Programming:
 - -[x] Syntactic Sugar: method Notations
@@ -41,7 +42,11 @@ I'll be documenting my progress in this repo with notes and practice code.
 - Everything in Scala is an expression 
 - Recursion over loops
 - All "operators" are methods
-
+- String interpolation: s, f, raw
+- Infix notation allows for methods with 1 parameter to be written like natural langauge (object method parameter)
+- Unary operators are the same as prefix notation, it only works with (+, -, !, ~)
+- Postfix notation is only used with methods that have no parameters
+- Apply() allows for objects to be called like a method
 
 
 

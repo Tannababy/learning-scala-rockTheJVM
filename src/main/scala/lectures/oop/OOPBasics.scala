@@ -16,6 +16,8 @@ object OOPBasics extends App {
 
     val counter = new Counter
     counter.increment.print
+    counter.increment.increment.increment.print
+    counter.increment(15).print
 
   // constructor
   class Person(name: String, age: Int) {
@@ -26,10 +28,10 @@ object OOPBasics extends App {
     println(1 + 3)
 
     // a function is a method once inside a class
-    // because we want to use 2 different names, we use the keyword to reference the class name
+    // because we want to use 2 different names, we use the keyword "this" to reference the class name
     def greet(name: String): Unit = println(s"${this.name} says: Hi $name")
 
-    // Overloading, if 2 methods with the same param list but diff return type will cause compiler errors
+    // Overloading, 2 methods with the same param list but diff return type will cause compiler errors
     def greet(): Unit = println(s"Hi, I am $name.")
 
     // multiple constructors
@@ -61,7 +63,7 @@ object OOPBasics extends App {
     - overload inc/dec to receive and amount
     */
 
-  class Writer(firstName: String, lastName: String, val year: Int) {
+  class Writer(firstName: String, lastName: String, val year: Int) { // the parameter "year" was converted to field with val to make accessible to other classes
 
     def fullName: String = s"$firstName $lastName"
   }
@@ -91,7 +93,7 @@ object OOPBasics extends App {
       new Counter(count - 1)
     }
 
-    //overloaded methods for counter sof any number inc/dec
+    //overloaded methods for counters  of any number inc/dec
     def increment(n: Int): Counter = {
       if (n <= 0) this
       else increment.increment(n -1)
