@@ -56,12 +56,14 @@ I'll be documenting my progress in this repo with notes and practice code.
 - - public (default)
 - overRIDING = unique implementation of super class fields/methods (inheritance, abstraction)
 - overLOADING = multiple method signatures with the same name and different parameter types (polymorphism)
+- Overrides are prevented using keywords: final & sealed
 - Abstract class Vs Traits 
 - - multiple traits may be inherited by the same class but classes can only be extended once
 - - All classes are extended from Any class
-- - AnyVal
-- - AnyRef
-- - Nothing can extend anything in Scala
+- - AnyVal 
+- - AnyRef (collections, string, etc)
+- - "Nothing" can extend anything in Scala
+- Throw expressions return the Nothing type
 
 
 

@@ -16,7 +16,7 @@ object Inheritance extends App {
   }
 
   val cat = new Cat
-  // because eat is a protected method, cat can access it but outside the cat class,
+  // because eat is a protected method, cat can access it but, outside the cat class
   // only the public crunch method could be accessed
   cat.crunch
 
