@@ -17,9 +17,9 @@ I'll be documenting my progress in this repo with notes and practice code.
 - [ ] Object Oriented Programming:
 - -[x] Syntactic Sugar: method Notations
 - -[x] Scala Objects
-- -[ ] Inheritance
-- - -[ ] Abstract classes
-- - - [ ] Traits
+- -[x] Inheritance
+- - -[x] Abstract classes
+- - - [x] Traits
 - -[ ] Generics
 - -[ ] Anonymous classes
 - -[ ] Case classes
@@ -49,8 +49,19 @@ I'll be documenting my progress in this repo with notes and practice code.
 - Apply() allows for objects to be called like a method
 - Scala doesn't have the "static" keyword and instead makes use of Singleton objects 
 - Objects are their own class/type and the only instance of that type
-- Scala companions (class and object of same name in the same scope) can access each others private members
-- 
+- Scala companions (class and object of same name in the same scope) can access each other's private members
+- Access modifiers: 
+- - private
+- - protected 
+- - public (default)
+- overRIDING = unique implementation of super class fields/methods (inheritance, abstraction)
+- overLOADING = multiple method signatures with the same name and different parameter types (polymorphism)
+- Abstract class Vs Traits 
+- - multiple traits may be inherited by the same class but classes can only be extended once
+- - All classes are extended from Any class
+- - AnyVal
+- - AnyRef
+- - Nothing can extend anything in Scala
 
 
 
