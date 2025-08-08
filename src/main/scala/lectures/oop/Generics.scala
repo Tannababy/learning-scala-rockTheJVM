@@ -9,7 +9,7 @@ object Generics extends App {
     // it is the code version of
     // { val animalList: CovariantList[Animal] = new CovariantList[Cat]
     // can animalList.add(new Dog)? }
-    def add[B >: A](element: B): MyList[B] = ??? // This means if you put in an element of the supertype B, the List of type A will then return a List of the supertype
+    def add[B >: A](element: B): MyList[B] = ??? // This means if you put in an element of the supertype B, the List of type A will then return a List of the supertype B
 
   }
 

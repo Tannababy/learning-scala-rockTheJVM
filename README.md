@@ -20,7 +20,7 @@ I'll be documenting my progress in this repo with notes and practice code.
 - -[x] Inheritance
 - - -[x] Abstract classes
 - - - [x] Traits
-- -[ ] Generics
+- -[x] Generics
 - -[ ] Anonymous classes
 - -[ ] Case classes
 - -[ ] Enums
@@ -64,6 +64,7 @@ I'll be documenting my progress in this repo with notes and practice code.
 - - AnyRef (collections, string, etc)
 - - "Nothing" can extend anything in Scala
 - Throw expressions return the Nothing type
+- Generics : Covariant[+A], Invariant[A] and Contravariant[-A], bounded types
 
 
 
