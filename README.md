@@ -16,7 +16,7 @@ I'll be documenting my progress in this repo with notes and practice code.
 ---
 - [ ] Object Oriented Programming:
 - -[x] Syntactic Sugar: method Notations
-- -[ ] Scala Objects
+- -[x] Scala Objects
 - -[ ] Inheritance
 - - -[ ] Abstract classes
 - - - [ ] Traits
