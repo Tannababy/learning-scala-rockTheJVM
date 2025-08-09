@@ -21,7 +21,7 @@ I'll be documenting my progress in this repo with notes and practice code.
 - - -[x] Abstract classes
 - - - [x] Traits
 - -[x] Generics
-- -[ ] Anonymous classes
+- -[x] Anonymous classes
 - -[ ] Case classes
 - -[ ] Enums
 - -[ ] Exceptions
@@ -65,6 +65,9 @@ I'll be documenting my progress in this repo with notes and practice code.
 - - "Nothing" can extend anything in Scala
 - Throw expressions return the Nothing type
 - Generics : Covariant[+A], Invariant[A] and Contravariant[-A], bounded types
+- Anonymous classes:
+- - allow us to instantiate both abstract and non - abstract types and override fields/methods on the spot
+- - can only work if all the extended class/traits members are passed/overridden
 
 
 
